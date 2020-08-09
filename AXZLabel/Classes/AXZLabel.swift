@@ -10,7 +10,7 @@ import UIKit
 
 public class AXZLabel : UILabel {
     public func startBlinking() {
-        let options : UIViewAnimationOptions = .repeat
+        let options : UIView.AnimationOptions = .repeat
         UIView.animate(withDuration: 0.25, delay:0.0, options:options, animations: {
             self.alpha = 0
             }, completion: nil)
