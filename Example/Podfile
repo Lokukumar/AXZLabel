@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AXZLabel_Example' do
+  pod 'AXZLabel', :path => '../'
+
+  target 'AXZLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
