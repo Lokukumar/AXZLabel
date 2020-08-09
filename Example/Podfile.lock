@@ -1,0 +1,16 @@
+PODS:
+  - AXZLabel (0.1.0)
+
+DEPENDENCIES:
+  - AXZLabel (from `../`)
+
+EXTERNAL SOURCES:
+  AXZLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AXZLabel: 88c4f92ceefc7024a32f0d31b787f852586db613
+
+PODFILE CHECKSUM: 5571b1e9d920f5458ad26a52fecd4158d7b464c2
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module Pods_AXZLabel_Tests {
+  umbrella header "Pods-AXZLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

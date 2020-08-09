@@ -1,0 +1,22 @@
+{
+  "name": "AXZLabel",
+  "version": "0.1.0",
+  "summary": "A short description of AXZLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Lokukumar/AXZLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lokukumar": "kumarlokesh097@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Lokukumar/AXZLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AXZLabel/Classes/**/*"
+}

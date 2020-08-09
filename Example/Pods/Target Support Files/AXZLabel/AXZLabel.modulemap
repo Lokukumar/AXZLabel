@@ -1,0 +1,6 @@
+framework module AXZLabel {
+  umbrella header "AXZLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
