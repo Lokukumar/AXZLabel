@@ -13,8 +13,8 @@
 		390B55795240093854076AC7EFEF5301 /* Pods-AXZLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3C593E1904A749FEE06E65B88BF412 /* Pods-AXZLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52BFF937C3BC4A57DD7458A92A443B3D /* Pods-AXZLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1503D3AA097A664A6B24DEC8E508F619 /* Pods-AXZLabel_Tests-dummy.m */; };
 		5DA38DF7829916688013502FA942E3D4 /* Pods-AXZLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073748BCE51C2432B1D7405B181A753 /* Pods-AXZLabel_Example-dummy.m */; };
+		A524927E24E03C960004D89E /* AXZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524927D24E03C960004D89E /* AXZLabel.swift */; };
 		AF2B7987CF5F357DE4231FB383BCDB6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C91C51BE55050D88AD3A4A8F54887D6E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60826EA3AB4CA0E3117C02B3D624073 /* ReplaceMe.swift */; };
 		EBECD216598E0F8082E38330FFB0C690 /* AXZLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8C07AB69300D37B274BFE0FEF0EECD /* AXZLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5C6FA3A648F383A1F7A28F031DEE16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -46,27 +46,27 @@
 		1F2A73520CD78565AA47BE00717F1D49 /* Pods-AXZLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXZLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2E8C07AB69300D37B274BFE0FEF0EECD /* AXZLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXZLabel-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39B11F4992E81E0C9772BE8FD6606815 /* Pods_AXZLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AXZLabel_Example.framework; path = "Pods-AXZLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B11F4992E81E0C9772BE8FD6606815 /* Pods_AXZLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXZLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A42C3FC889C05781858724D8634B54D /* Pods-AXZLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXZLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		464DDFAFBE4AB7888DDF61F3D57DEE87 /* AXZLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AXZLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		567B4DFF0D9CAC1598B4C8DADD66FC82 /* Pods_AXZLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AXZLabel_Tests.framework; path = "Pods-AXZLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		464DDFAFBE4AB7888DDF61F3D57DEE87 /* AXZLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AXZLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		567B4DFF0D9CAC1598B4C8DADD66FC82 /* Pods_AXZLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXZLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6073748BCE51C2432B1D7405B181A753 /* Pods-AXZLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXZLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		626E0999FF10FC0FE796F84385AAE292 /* AXZLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXZLabel-prefix.pch"; sourceTree = "<group>"; };
-		717479727C0AD8F7B2337428AFC2F1D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		717479727C0AD8F7B2337428AFC2F1D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7658F638C111683A07FEAA9F715AE8B9 /* Pods-AXZLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXZLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		895DA6C512C5390114E600B14F9E2263 /* AXZLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXZLabel.debug.xcconfig; sourceTree = "<group>"; };
 		8C5C31EB68E7ADA7FA60D70BB5BB13D3 /* Pods-AXZLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXZLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		8F3C593E1904A749FEE06E65B88BF412 /* Pods-AXZLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXZLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		916709490FED6D6070D3B1EEAB8D9D50 /* AXZLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXZLabel.framework; path = AXZLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		916709490FED6D6070D3B1EEAB8D9D50 /* AXZLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXZLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2205212EA6B7B74F77D99F9EC3A7C58 /* Pods-AXZLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXZLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4241D4DEB090DB4162E2F20DE7A2508 /* Pods-AXZLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXZLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A524927D24E03C960004D89E /* AXZLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AXZLabel.swift; path = AXZLabel/Classes/AXZLabel.swift; sourceTree = "<group>"; };
 		AB6A10450F4ACD6A4975BC547CAAAB4D /* Pods-AXZLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXZLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BED1D3372692D7DEA6D80F815930CF02 /* Pods-AXZLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXZLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		C07AE6353EE66B8D3F9DA2B31926B866 /* AXZLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXZLabel.release.xcconfig; sourceTree = "<group>"; };
 		C6A40840DB4AA060E6FCB4C43B87D578 /* AXZLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXZLabel.modulemap; sourceTree = "<group>"; };
-		D60826EA3AB4CA0E3117C02B3D624073 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AXZLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		DD73DF35663B0936B14E54E49308E03F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD73DF35663B0936B14E54E49308E03F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E8A37EAED1F0B6E1006C98BBF55233DB /* AXZLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXZLabel-Info.plist"; sourceTree = "<group>"; };
 		F151AAE7AD02F843BA0706836AA6754F /* AXZLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXZLabel-dummy.m"; sourceTree = "<group>"; };
 		FFCC3D9276975F53EA722EE9C0421CC4 /* Pods-AXZLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXZLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		45C00E10E71A48BB291058393CC9A592 /* AXZLabel */ = {
 			isa = PBXGroup;
 			children = (
-				D60826EA3AB4CA0E3117C02B3D624073 /* ReplaceMe.swift */,
+				A524927D24E03C960004D89E /* AXZLabel.swift */,
 				26F6BBC534F28528B29E6F483F6B2491 /* Pod */,
 				E3DE2A5668278D30764C142023BE34B7 /* Support Files */,
 			);
@@ -367,8 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A524927E24E03C960004D89E /* AXZLabel.swift in Sources */,
 				1389777934058D5F861E482ABD764272 /* AXZLabel-dummy.m in Sources */,
-				C91C51BE55050D88AD3A4A8F54887D6E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,8 +591,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

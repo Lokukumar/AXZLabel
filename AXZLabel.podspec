@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AXZLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'UILabel subclass to blink text'
+  s.swift_versions   = ['5.0']
   s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
