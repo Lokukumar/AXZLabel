@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AXZLabel'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'UILabel subclass to blink text'
   s.swift_versions   = ['5.0']
   s.swift_version    = '5.0'
